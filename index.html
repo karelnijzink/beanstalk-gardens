@@ -94,13 +94,13 @@
     .hero__bg{position:absolute;inset:0;overflow:hidden;background:#20321f}
     .hero__bg img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;animation:kb 22s ease-out both}
     @keyframes kb{from{transform:scale(1.1)}to{transform:scale(1)}}
-    .hero__scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,28,16,.5) 0%,rgba(18,28,16,0) 30%,rgba(16,26,14,.18) 55%,rgba(14,24,12,.86) 100%)}
+    .hero__scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,26,14,.55) 0%,rgba(16,26,14,.14) 30%,rgba(16,26,14,.34) 55%,rgba(12,20,10,.9) 100%),linear-gradient(95deg,rgba(14,22,12,.66) 0%,rgba(14,22,12,.28) 44%,rgba(14,22,12,0) 70%)}
     .hero__inner{position:relative;z-index:2;padding-bottom:clamp(40px,6vw,72px);padding-top:120px;max-width:1000px}
-    .hero .eyebrow{color:var(--gold)}
+    .hero .eyebrow{color:#F2C669;text-shadow:0 1px 14px rgba(8,16,4,.75)}
     .hero .eyebrow::before{color:rgba(246,239,223,.6)}
-    .hero h1{color:#fff;max-width:15ch}
+    .hero h1{color:#fff;max-width:15ch;text-shadow:0 2px 30px rgba(8,16,4,.55)}
     .hero h1 .it{color:#F3D9A0}
-    .hero__sub{font-size:clamp(18px,2vw,21px);max-width:42ch;color:rgba(246,239,223,.9);margin:22px 0 32px;line-height:1.5}
+    .hero__sub{font-size:clamp(18px,2vw,21px);max-width:42ch;color:rgba(246,239,223,.95);margin:22px 0 32px;line-height:1.5;text-shadow:0 1px 18px rgba(8,16,4,.6)}
     .hero__cta{display:flex;flex-wrap:wrap;gap:16px 26px;align-items:center}
     .hero__meta{display:flex;flex-wrap:wrap;gap:14px 26px;margin-top:34px;padding-top:24px;border-top:1px solid rgba(246,239,223,.24)}
     .hero__meta span{font-size:13.5px;font-weight:500;color:rgba(246,239,223,.86);letter-spacing:.01em}
@@ -181,12 +181,12 @@
     /* Quote over produce */
     .pull{position:relative;color:var(--paper);overflow:hidden}
     .pull__bg{position:absolute;inset:0}.pull__bg img{width:100%;height:100%;object-fit:cover;object-position:50% 55%}
-    .pull__scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,26,14,.82),rgba(16,26,14,.42) 60%,rgba(16,26,14,.2))}
+    .pull__scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,20,10,.92) 0%,rgba(12,20,10,.72) 42%,rgba(12,20,10,.46) 72%,rgba(12,20,10,.28) 100%)}
     .pull .wrap{position:relative;z-index:2}
-    .pull blockquote{font-family:var(--fdisp);font-weight:400;font-size:clamp(30px,5vw,60px);line-height:1.08;letter-spacing:-.02em;color:#fff;max-width:16ch;margin:0}
+    .pull blockquote{font-family:var(--fdisp);font-weight:400;font-size:clamp(30px,5vw,60px);line-height:1.08;letter-spacing:-.02em;color:#fff;max-width:16ch;margin:0;text-shadow:0 2px 26px rgba(6,12,4,.6)}
     .pull blockquote .it{color:#F3D9A0}
-    .pull .checks{list-style:none;padding:0;margin:28px 0 0;display:flex;flex-wrap:wrap;gap:10px 26px}
-    .pull .checks li{font-size:15px;font-weight:500;color:rgba(246,239,223,.9);display:inline-flex;align-items:center;gap:9px}
+    .pull .checks{list-style:none;padding:0;margin:28px 0 0;display:flex;flex-direction:column;gap:13px;max-width:34ch}
+    .pull .checks li{font-size:16px;font-weight:600;color:#F6EFDF;text-shadow:0 1px 12px rgba(6,12,4,.75);display:inline-flex;align-items:center;gap:10px}
     .pull .checks svg{width:17px;height:17px;stroke:var(--gold);stroke-width:2;fill:none}
 
     /* Founder */
@@ -204,11 +204,11 @@
     /* Testimonial */
     .testi{position:relative;color:var(--paper);overflow:hidden}
     .testi__bg{position:absolute;inset:0}.testi__bg img{width:100%;height:100%;object-fit:cover;object-position:50% 38%}
-    .testi__scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,28,16,.5),rgba(18,28,16,.82))}
+    .testi__scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,24,14,.62),rgba(14,22,12,.86))}
     .testi .wrap{position:relative;z-index:2;text-align:center}
     .testi .st{color:var(--gold);letter-spacing:5px;font-size:15px}
-    .testi blockquote{font-family:var(--fdisp);font-weight:400;font-size:clamp(26px,4.4vw,50px);line-height:1.12;color:#fff;max-width:20ch;margin:16px auto 20px;letter-spacing:-.015em}
-    .testi cite{font-style:normal;font-size:14px;color:rgba(246,239,223,.8)}
+    .testi blockquote{font-family:var(--fdisp);font-weight:400;font-size:clamp(26px,4.4vw,50px);line-height:1.12;color:#fff;max-width:20ch;margin:16px auto 20px;letter-spacing:-.015em;text-shadow:0 2px 26px rgba(6,12,4,.55)}
+    .testi cite{font-style:normal;font-size:14px;color:rgba(246,239,223,.92);text-shadow:0 1px 10px rgba(6,12,4,.7)}
 
     /* FAQ */
     .faq{background:var(--paper)}
