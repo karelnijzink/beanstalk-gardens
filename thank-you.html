@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanks, your garden info is on its way · Beanstalk</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=DM+Sans:wght@400;500;600;700&display=swap">
+  <style>
+    :root{--ink:#1E3226;--paper:#F6EFDF;--paper2:#FBF6EA;--clay:#C0562F;--gold:#DFA23A;--sage:#7E9A6E;--muted:#5C6A55;--line:rgba(30,50,38,.16);
+      --fdisp:"Fraunces",Georgia,serif;--fbody:"DM Sans",system-ui,-apple-system,sans-serif;}
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:flex;flex-direction:column;font-family:var(--fbody);font-size:18px;line-height:1.62;
+      color:var(--ink);background:var(--paper);font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:620px;margin:0 auto;padding:0 26px}
+    main{flex:1;display:flex;align-items:center;padding:64px 0;text-align:center}
+    .eyebrow{font-family:var(--fbody);font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:12px;color:var(--clay);margin:0 0 20px}
+    h1{font-family:var(--fdisp);font-weight:400;font-size:clamp(34px,6vw,56px);line-height:1.06;letter-spacing:-.02em;margin:0 0 18px;color:var(--ink)}
+    h1 .it{font-style:italic}
+    p{margin:0 0 1em;color:var(--muted)}
+    .note{background:var(--paper2);border:1px solid var(--line);border-radius:12px;padding:22px 24px;text-align:left;margin:26px 0 30px}
+    .note p{color:var(--ink);font-size:16px}
+    .note p:last-child{margin-bottom:0;color:var(--muted)}
+    .note a{color:var(--clay)}
+    .btn{display:inline-flex;align-items:center;gap:.5em;font-family:var(--fbody);font-weight:600;font-size:16px;text-decoration:none;
+      background:var(--ink);color:var(--paper);padding:15px 28px;border-radius:100px;transition:background .25s}
+    .btn:hover{background:var(--clay)}
+    footer{background:var(--ink);color:rgba(246,239,223,.72);font-size:14px;padding:26px 0;text-align:center}
+    footer a{color:var(--gold)}
+    .brand{font-family:var(--fdisp);font-weight:500;font-size:22px;color:var(--ink);margin-bottom:26px}
+  </style>
+  <script>
+    var BNS_PIXEL_ID='{{META_PIXEL_ID}}';
+    if(BNS_PIXEL_ID.indexOf('{{')===-1){
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init',BNS_PIXEL_ID);fbq('track','PageView');fbq('track','CompleteRegistration');
+    }
+  </script>
+</head>
+<body>
+  <main>
+    <div class="wrap">
+      <div class="brand">Beanstalk</div>
+      <p class="eyebrow">First step, planted</p>
+      <h1>Thanks. Your garden info is on its <span class="it">way</span>.</h1>
+      <p>We've got your details. Keep an eye on your inbox, your Beanstalk garden info usually lands within a few minutes.</p>
+      <div class="note">
+        <p><strong>Can't find it?</strong> Check your spam or promotions folder, and add hello@beanstalkgardens.ca to your contacts so you don't miss us.</p>
+        <p>If your yard is in our area, that email has a link to book your free 20-minute Garden Fit with Matt.</p>
+      </div>
+      <a class="btn" href="index.html">Back to Beanstalk</a>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">Soil by Coastal Soil Solutions · <a href="mailto:hello@beanstalkgardens.ca">hello@beanstalkgardens.ca</a></div>
+  </footer>
+</body>
+</html>
